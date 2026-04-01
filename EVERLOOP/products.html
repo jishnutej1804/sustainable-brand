@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eco-Friendly Products</title>
+  <style>
+    body { font-family: Perpetua Titling MT; margin:0; background:#f9fff9; }
+    header { position:sticky; top:0; background:#228B22; padding:15px; display:flex; justify-content:space-between; align-items:center; }
+    header h1 { color:white; margin:0; font-size:20px; }
+    nav a { color:white; margin:0 10px; text-decoration:none; font-weight:bold; padding:8px 12px; border-radius:5px; }
+    nav a:hover { background:#2E8B57; }
+    h2 { color:#228B22; text-align:center; padding:20px; }
+    .catalog { display:flex; justify-content:center; flex-wrap:wrap; }
+    .product { background:#fff; margin:15px; padding:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1); width:250px; text-align:center; transition:0.3s; }
+    .product:hover { transform:scale(1.05); }
+    .product img { width:100%; border-radius:10px; }
+    .btn { background:#228B22; color:white; padding:10px 15px; border:none; border-radius:5px; cursor:pointer; margin-top:10px; }
+    .btn:hover { background:#006400; }
+    footer { background:#228B22; color:white; text-align:center; padding:20px; margin-top:40px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌍 Sustainable Shop</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="pledge.html">Our Pledge</a>
+      <a href="products.html">Products</a>
+      <a href="metrics.html">Impact Metrics</a>
+      <a href="blog.html">Blog</a>
+      <!--<a href="testimonials.html">Testimonials</a>--!> 
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <h2>Eco-Friendly Product Catalog</h2>
+
+  <div class="catalog">
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61YuhJHMlXL.jpg" width="500" height="200" alt="Reusable Bottle">
+      <h3>Reusable Water Bottle</h3>
+      <p>$15</p>
+      <button class="btn">Buy Now</button>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/51MWJJEzc9L._AC_UY1100_.jpg" width="500" height="200"  alt="Eco Bag">
+      <h3>Eco-Friendly Shopping Bag</h3>
+      <p>$10</p>
+      <button class="btn">Buy Now</button>
+    </div>
+    <div class="product">
+      <img src="https://freshmills.in/cdn/shop/files/bamboo-toothbrush-589621.jpg?crop=center&height=1200&v=1717361593&width=1200" width="500" height="200" alt="Bamboo Toothbrush">
+      <h3>Bamboo Toothbrush</h3>
+      <p>$5</p>
+      <button class="btn">Buy Now</button>
+    </div>
+  </div>
+
+  <footer>
+    Sustainable Products for Everyday Living
+  </footer>
+
+</body>
+</html>
